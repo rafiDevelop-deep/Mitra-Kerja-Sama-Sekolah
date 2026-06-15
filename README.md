@@ -1,35 +1,35 @@
-# Mitra-Kerja-Sama-Sekolah
-Web ini dibuat untuk mengetahui perusahaan yang sedang menjalin kerja sama dengan sekolah
 # Portal Kemitraan SMK Pusdikhubad Cimahi 
 
-Aplikasi berbasis web sederhana yang digunakan untuk mengelola sistem informasi kemitraan dan kerja sama sekolah di **SMK Pusdikhubad Cimahi**. Projek ini dibangun menggunakan PHP Native dan menggunakan MySQL sebagai penyimpanan databasenya.
+Web app simpel berbasis PHP Native buat ngelola data kemitraan dan kerja sama sekolah di **SMK Pusdikhubad Cimahi**. Database-nya pakai MySQL. 
+
+Apk saya ini masih bisa dikembangkan!
 
 ---
 
-# Teknologi yang Digunakan
+##  Teknologi yang  Saya pakai
 
-* **Bahasa Pemrograman:** PHP (Native)
+* **Bahasa Pemrograman:** PHP Native
 * **Database:** MySQL / MariaDB
-* **Desain UI:** Custom CSS (Inter Font)
-* **Ekstensi Database:** MySQLi (`mysqli_connect`)
+* **Tampilan (UI):** Custom CSS (pake Font Inter biar cakep)
+* **Ekstensi Database:** MySQLi 
 
 ---
 
-#  Struktur File Proyek
+##  Ada File Apa Aja?
 
-* `login.php` - Halaman antarmuka (UI) untuk masuk ke dalam sistem.
-* `proses.php` - Menangani logika autentikasi dan validasi login pengguna.
-* `dashboard.php` - Halaman utama setelah pengguna berhasil masuk.
-* `logout.php` - Menghapus sesi login dan mengarahkan kembali ke halaman login.
-* `koneksi.php` - Mengatur konfigurasi koneksi antara PHP dan database MySQL.
-* `db_pusdikhubad.sql` - Berkas dump database untuk struktur tabel pengguna.
-* `logo_smk.jpg` - Aset logo SMK Pusdikhubad Cimahi.
+* `login.php` - Halaman utama pas mau masuk aplikasi.
+* `proses.php` - Tempat ngecek bener kagaknya username & password pas login.
+* `dashboard.php` - Halaman utama admin/siswa kalau berhasil masuk.
+* `logout.php` - Buat keluar dari aplikasi dan hapus session.
+* `koneksi.php` - Jembatan penghubung antara PHP dengan database MySQL.
+* `db_pusdikhubad.sql` - Backup/dump database-nya.
+* `logo_smk.jpg` - Logo resmi SMK Pusdikhubad Cimahi.
 
 ---
 
-# Cara Instalasi di Lokal (XAMPP / Laragon)
+##  Cara Jalanin di Laptop (btw saya menggunakan XAMPP)
 
-1. Kloning Proyek
-Buka terminal/git bash, masuk ke folder `htdocs` (jika menggunakan XAMPP) atau `www` (jika menggunakan Laragon), lalu jalankan perintah:
+### 1. Kloning Project
+Buka Git Bash atau terminal di folder `htdocs` (XAMPP) terus ketik perintah ini:
 ```bash
 git clone [https://github.com/rafiDevelop-deep/Mitra-Kerja-Sama-Sekolah.git](https://github.com/rafiDevelop-deep/Mitra-Kerja-Sama-Sekolah.git)
